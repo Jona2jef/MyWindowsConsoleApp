@@ -142,6 +142,7 @@
     <ClCompile Include="MyWindowsConsoleApp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="algo.h" />
     <ClInclude Include="pstring.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

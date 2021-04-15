@@ -23,5 +23,8 @@
     <ClInclude Include="pstring.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="algo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,13 +1,12 @@
-#include "pstring.h"
 #include <iostream>
+#include "pstring.h"
 
 using namespace std;
 
 int main()
 {
-	Pstring msg;
-	char s[] = "This message will surely exceed the width of the screen which is what the max size constant represents";
-	msg = s;
+	Pstring ps = "Hello wor";
+	const char* msg = ps + "ld. Jolly rancher blah blah blah the length of this string exceeds 80 fossure!!! BUt God alone knows what I'm doing right now";
+
 	cout << msg << endl;
-	cout << strlen(msg) << endl;
 }
