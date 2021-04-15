@@ -77,11 +77,6 @@ public:
 		}
 	}
 
-	Pstring(const char* s)
-	{
-		strcpy_s(str, s);
-	}
-
 	operator char* ()
 	{
 		return str;
